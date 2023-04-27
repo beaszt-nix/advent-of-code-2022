@@ -1,7 +1,7 @@
 use std::{fs::File, io::{BufReader, BufRead}};
 
-pub fn part1(file_name: &str) -> i64 {
-    let file = File::open(file_name).expect("Unable to open file");
+pub fn part1() -> i64 {
+    let file = File::open("inputs/day1.txt").expect("Unable to open file");
     let reader = BufReader::new(file);
 
     let mut sum = 0;
@@ -16,8 +16,8 @@ pub fn part1(file_name: &str) -> i64 {
     }
     return max_calories;
 }
-pub fn part2(file_name: &str) -> i64 {
-    let file = File::open(file_name).expect("Unable to open file");
+pub fn part2() -> i64 {
+    let file = File::open("inputs/day1.txt").expect("Unable to open file");
     let reader = BufReader::new(file);
 
     let mut elf_calories = vec![];
