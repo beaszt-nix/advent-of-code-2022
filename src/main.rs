@@ -8,5 +8,7 @@ fn main() {
     //println!("Day3 Part1: {:?}", days::day3::part1());
     // println!("Day3 Part2: {:?}", days::day3::part2());
     // println!("Day4 Part1: {:?}", days::day4::part1());
-    println!("Day4 Part2: {:?}", days::day4::part2());
+    // println!("Day4 Part2: {:?}", days::day4::part2());
+    // println!("Day5 Part1: {:?}", days::day5::part1());
+    println!("Day5 Part2: {:?}", days::day5::part2());
 }
